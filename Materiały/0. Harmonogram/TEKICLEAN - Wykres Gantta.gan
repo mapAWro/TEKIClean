@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-03-09" view-index="0" gantt-divider-location="434" resource-divider-location="300" version="2.7" locale="pl">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-03-23" view-index="1" gantt-divider-location="434" resource-divider-location="300" version="2.7" locale="pl">
     <description/>
-    <view zooming-state="default:6" id="gantt-chart">
+    <view zooming-state="default:4" id="gantt-chart">
         <field id="tpd3" name="Nazwa zadania" width="71" order="0"/>
         <field id="tpd4" name="Data rozpoczęcia" width="13" order="1"/>
         <field id="tpd5" name="Data zakończenia" width="14" order="2"/>
         <option id="taskLabelLeft" value=""/>
         <option id="taskLabelRight" value="resources"/>
-        <option id="color.recent"><![CDATA[#00cc00 #00cc00 #00cc00 #00cc00 #00cc00 #00cc00 #006600 #0000cc #6666ff #3333ff]]></option>
+        <option id="color.recent"><![CDATA[#ccccff #ccccff #9999ff #6666ff #00cc00 #00cc00 #00cc00 #00cc00 #00cc00 #00cc00]]></option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Osoba" width="59" order="0"/>
-        <field id="1" name="Domyślna rola" width="40" order="1"/>
+        <field id="0" name="Osoba" width="58" order="0"/>
+        <field id="1" name="Domyślna rola" width="41" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -45,6 +45,7 @@
             <task id="48" name="Model funkcjonalny systemu" color="#6666ff" meeting="false" start="2015-03-12" duration="13" complete="0" expand="true">
                 <task id="49" name="Diagram przypadków użycia" color="#ccccff" meeting="false" start="2015-03-12" duration="3" complete="0" expand="true"/>
                 <task id="50" name="Diagram aktywności" color="#ccccff" meeting="false" start="2015-03-23" duration="6" complete="0" expand="true"/>
+                <task id="116" name="Diagram klas" color="#ccccff" meeting="false" start="2015-03-17" duration="10" complete="0" expand="true"/>
             </task>
             <task id="51" name="Model strukturalny systemu" color="#6666ff" meeting="false" start="2015-03-17" duration="2" complete="0" expand="true"/>
             <task id="52" name="Projekt bazy danych" color="#6666ff" meeting="false" start="2015-03-19" duration="4" complete="0" expand="true">
@@ -77,6 +78,7 @@
         <resource id="1" name="Jacek" function="Default:1" contacts="" phone=""/>
         <resource id="2" name="Sebastian" function="Default:1" contacts="" phone=""/>
         <resource id="3" name="Jedrzej" function="Default:1" contacts="" phone=""/>
+        <resource id="4" name="Paweł" function="SoftwareDevelopment:2" contacts="" phone=""/>
     </resources>
     <allocations>
         <allocation task-id="54" resource-id="0" function="Default:1" responsible="false" load="50.0"/>
@@ -91,7 +93,7 @@
         <allocation task-id="71" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="75" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="72" resource-id="0" function="Default:1" responsible="true" load="100.0"/>
-        <allocation task-id="91" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="53" resource-id="1" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="54" resource-id="1" function="Default:1" responsible="true" load="50.0"/>
         <allocation task-id="45" resource-id="1" function="Default:1" responsible="false" load="100.0"/>
@@ -115,13 +117,23 @@
         <allocation task-id="75" resource-id="2" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="49" resource-id="3" function="Default:1" responsible="false" load="50.0"/>
         <allocation task-id="45" resource-id="3" function="Default:0" responsible="false" load="100.0"/>
-        <allocation task-id="110" resource-id="3" function="Default:1" responsible="false" load="25.0"/>
         <allocation task-id="50" resource-id="3" function="Default:1" responsible="true" load="25.0"/>
         <allocation task-id="95" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="100" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="70" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
         <allocation task-id="71" resource-id="3" function="Default:1" responsible="false" load="100.0"/>
         <allocation task-id="73" resource-id="3" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="110" resource-id="3" function="Default:1" responsible="false" load="25.0"/>
+        <allocation task-id="110" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="116" resource-id="4" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="53" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="101" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="102" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="70" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="73" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="71" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
+        <allocation task-id="100" resource-id="4" function="SoftwareDevelopment:2" responsible="false" load="100.0"/>
     </allocations>
     <vacations/>
     <taskdisplaycolumns>
