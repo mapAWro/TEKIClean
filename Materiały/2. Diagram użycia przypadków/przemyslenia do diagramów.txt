@@ -1,18 +1,28 @@
-OGÓLNY
+OGÃ“LNY
 
-o Anulowanie us³ugi - po co jeœli mamy stan zlecenia ?  OK 
-o Zamówienie us³ugi - ewentualne wynagrodzenie dodatkowe wychodz¹ce od klienta; oferta premium; (?) 
-o Kontakt ze sprz¹taj¹cym - extend? - a zu¿ycie œrodków ? OK 
-o Dopasowanie do planu studiów(harmonogram) ? - nie rozumiem na jakiej zasadzie, po co ? 
+o Anulowanie usÅ‚ugi - po co jeÅ›li mamy stan zlecenia ?  OK 
+o ZamÃ³wienie usÅ‚ugi - ewentualne wynagrodzenie dodatkowe wychodzÄ…ce od klienta; oferta premium; (?) 
+o Kontakt ze sprzÄ…tajÄ…cym - extend? - a zuÅ¼ycie Å›rodkÃ³w ? OK 
+o Dopasowanie do planu studiÃ³w(harmonogram) ? - nie rozumiem na jakiej zasadzie, po co ? 
 
-ŒRODKI
-o Podl¹d stanu magazynu œrodków <-- extend -- Zamów nowy towar ? - chodzi o strzalke :p 
+ÅšRODKI
+o PodlÄ…d stanu magazynu Å›rodkÃ³w <-- extend -- ZamÃ³w nowy towar ? - chodzi o strzalke :p 
 
 OPINIE
 o Kategorie OK 
-o Samorz¹d + admin --- Podgl¹d opini -- include -- > Opinia s³owna ? OK - chodzi³o o strza³kê
+o SamorzÄ…d + admin --- PodglÄ…d opini -- include -- > Opinia sÅ‚owna ? OK - chodziÅ‚o o strzaÅ‚kÄ™
 
-MODU£ WYNAGRODZEÑ
-Myœla³em ¿e sprz¹taj¹cy bêdzie wybiera³ nagrodê, ale mo¿e rzeczywiœcie bezsensu.
-Mo¿e jakiœ system coœ ala - > za pierwszym razem kubek, póŸniej koszulka, wejœciówka VIP
-WEJŒCIÓWKA VIP - dla osoby imiennie ?
+MODUÅ WYNAGRODZEÅƒ
+MyÅ›laÅ‚em Å¼e sprzÄ…tajÄ…cy bÄ™dzie wybieraÅ‚ nagrodÄ™, ale moÅ¼e rzeczywiÅ›cie bezsensu.
+MoÅ¼e jakiÅ› system coÅ› ala - > za pierwszym razem kubek, pÃ³Åºniej koszulka, wejÅ›ciÃ³wka VIP
+WEJÅšCIÃ“WKA VIP - dla osoby imiennie ?
+
+
+------------------------------------------------------------------------------------------------------------
+dopasowanie byÅ‚o w funkcjonalnoÅ›ciach, dlatego to dodaÅ‚em (Konrad napisaÅ‚, Å¼e na ogÃ³lnym tego brakuje :P)
+
+co do wybierania nagrÃ³d przez sprzatajacego to z gory zakladamy, ze wejsciowka mialaby logicznie najwieksza wartosc, wiec kazdy by jÄ…w
+ybieraÅ‚ :P oczywiÅ›cie, Å¼e imiennie. Å¼eby nie naduÅ¼ywaÄ‡ tego systemu (bo wtedy kaÅ¼dy by nagle chciaÅ‚ sprzÄ…taÄ‡, i kaÅ¼dy
+miaÅ‚by wejÅ›ciÃ³wkÄ™ vipowskÄ…, co oznaczaÅ‚oby ich rychÅ‚y koniec bo dziekanat by siÄ™ wkurzyÅ‚ - co to za vipy, skoro jest ich tysiÄ…c,
+bo kaÅ¼dy moÅ¼e mieÄ‡) proponujÄ™ "karnet vipowski", umoÅ¼liwiajÄ…cy 5-krotne wejÅ›cie do takiego dziekanatu. karnet odnawialny po np.
+zrealizowaniu 10 usÅ‚ug na ocenÄ™ 5 :P
