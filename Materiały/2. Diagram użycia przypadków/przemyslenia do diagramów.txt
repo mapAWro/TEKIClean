@@ -1,0 +1,18 @@
+OGÓLNY
+
+o Anulowanie us³ugi - po co jeœli mamy stan zlecenia ?  OK 
+o Zamówienie us³ugi - ewentualne wynagrodzenie dodatkowe wychodz¹ce od klienta; oferta premium; (?) 
+o Kontakt ze sprz¹taj¹cym - extend? - a zu¿ycie œrodków ? OK 
+o Dopasowanie do planu studiów(harmonogram) ? - nie rozumiem na jakiej zasadzie, po co ? 
+
+ŒRODKI
+o Podl¹d stanu magazynu œrodków <-- extend -- Zamów nowy towar ? - chodzi o strzalke :p 
+
+OPINIE
+o Kategorie OK 
+o Samorz¹d + admin --- Podgl¹d opini -- include -- > Opinia s³owna ? OK - chodzi³o o strza³kê
+
+MODU£ WYNAGRODZEÑ
+Myœla³em ¿e sprz¹taj¹cy bêdzie wybiera³ nagrodê, ale mo¿e rzeczywiœcie bezsensu.
+Mo¿e jakiœ system coœ ala - > za pierwszym razem kubek, póŸniej koszulka, wejœciówka VIP
+WEJŒCIÓWKA VIP - dla osoby imiennie ?
