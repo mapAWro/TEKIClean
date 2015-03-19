@@ -1,4 +1,4 @@
-OGÓLNY
+﻿OGÓLNY
 
 o Anulowanie usługi - po co jeśli mamy stan zlecenia ?  OK 
 o Zamówienie usługi - ewentualne wynagrodzenie dodatkowe wychodzące od klienta; oferta premium; (?) 
@@ -16,6 +16,8 @@ MODUŁ WYNAGRODZEŃ
 Myślałem że sprzątający będzie wybierał nagrodę, ale może rzeczywiście bezsensu.
 Może jakiś system coś ala - > za pierwszym razem kubek, później koszulka, wejściówka VIP
 WEJŚCIÓWKA VIP - dla osoby imiennie ?
+
+-Może niech wynagrodzenie ma postać zapłaty ze strony klienta? System nie musi tego kontrolować, lecz nadzorować sprawną komunikację i realizację zamówionej usługi. Nagrody typu wejściówka lub kubek są bez sensu.
 
 
 ------------------------------------------------------------------------------------------------------------
