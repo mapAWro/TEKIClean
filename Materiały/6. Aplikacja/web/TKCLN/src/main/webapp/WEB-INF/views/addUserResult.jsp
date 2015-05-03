@@ -16,6 +16,6 @@
         <td>${lastName}</td>
     </tr>
 </table>
-	<br><br><a href="http://localhost:8080/app">Back</a>  
+	<br><br><a href="/app/userManagement">Back</a>  
 </body>
 </html>

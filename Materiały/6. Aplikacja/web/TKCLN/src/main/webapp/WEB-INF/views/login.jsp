@@ -9,18 +9,8 @@
 </head>
 <body>
 		<h2>	
-			TekiCLEAN 
+			Logowanie uzytkownika 
 		</h2>		
-		
-		<br><a href="/app/login">zaloguj sie</a>
-		<br><a href="/app/signIn">zarejestruj sie</a>
-		<br><a href="/app/userManagement">Panel admina</a><br><br>
-		
-		<form:form method="POST" action="/app/home">
-			<form:label path="searchParam">T</form:label>
-			<form:input path="searchParam" />
-			<input type="submit" value="szukaj"/>
-		</form:form>
 		
 	</body>
 </html>

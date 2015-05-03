@@ -9,8 +9,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.ModelAndView;
 
 import teki.clean.app.domain.User;
 import teki.clean.app.service.UserManager;
@@ -25,8 +28,8 @@ public class UserController {
 	
 	private UserManager um;
 
-	@RequestMapping(value = "/", method = RequestMethod.GET)
-	public String home(Locale locale, Model model) {
+	@RequestMapping(value = "/userManagement", method = RequestMethod.GET)
+	public String userManegementMain(Locale locale, Model model) {
 		
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
@@ -54,7 +57,20 @@ public class UserController {
 		model.addAttribute( "serverTime", formattedDate );
 		model.addAttribute( "users", um.getUsers() );
 		
-		return "home";
+		return "userManagement";
+	}
+	
+	@RequestMapping(value = "/user", method = RequestMethod.GET)
+	public ModelAndView user() {
+      return new ModelAndView("addUser", "command", new User());
+	}
+		   
+	@RequestMapping(value = "/addUser", method = RequestMethod.POST)
+	public String addUser(@ModelAttribute("app/user")User user, 
+			ModelMap model) {
+      model.addAttribute("name", user.getName() );
+      model.addAttribute("lastName", user.getLastName() );
+      return "addUserResult";
 	}
 	
 }
