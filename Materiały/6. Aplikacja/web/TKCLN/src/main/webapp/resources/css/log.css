@@ -1,5 +1,5 @@
 .top {
-    background-image: url(./../img/top-back.png);
+    background-image: url(./../img/login/top-back.png);
     background-repeat: no-repeat;
     background-position: center top;
     width: 1280px;
@@ -8,7 +8,7 @@
 }
 
 .content {
-    background-image: url(content-back.png);
+    background-image: url(./../img/login/content-back.png);
     background-repeat: no-repeat;
     background-position: center top; 
     margin-top: 70px;

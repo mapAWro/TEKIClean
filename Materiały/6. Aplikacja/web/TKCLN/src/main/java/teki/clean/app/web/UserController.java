@@ -1,12 +1,12 @@
 package teki.clean.app.web;
 
 import java.text.DateFormat;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.Locale;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
@@ -16,37 +16,28 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
 import teki.clean.app.domain.User;
+import teki.clean.app.domain.Users;
 import teki.clean.app.service.UserManager;
 
 /**
  * Handles requests for the application home page.
  */
 @Controller
+@Scope("session")
 public class UserController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(UserController.class);
 	
-	private UserManager um;
+	private UserManager um = new UserManager();
 
 	@RequestMapping(value = "/userManagement", method = RequestMethod.GET)
 	public String userManegementMain(Locale locale, Model model) {
 		
 		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("Number of users: {}.", um.getUsers().size());
 		
 		//Sekcja testowa
 		//**************************
-		um = new UserManager();
-		um.setUsers( new ArrayList<User>() );
-		User user = new User();
-		user.setUserID(1L);
-		user.setName("Jan");
-		user.setLastName("Kowalski");
-		um.addUser(user);
-		user = new User();
-		user.setUserID(2L);
-		user.setName("Adam");
-		user.setLastName("Malinowski");
-		um.addUser(user);
 		//**************************
 		
 		Date date = new Date();
@@ -66,10 +57,11 @@ public class UserController {
 	}
 		   
 	@RequestMapping(value = "/addUser", method = RequestMethod.POST)
-	public String addUser(@ModelAttribute("app/user")User user, 
+	public String addUser(@ModelAttribute("app/user")Users user, 
 			ModelMap model) {
       model.addAttribute("name", user.getName() );
       model.addAttribute("lastName", user.getLastName() );
+      um.addUser(user);
       return "addUserResult";
 	}
 	

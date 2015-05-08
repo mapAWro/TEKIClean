@@ -3,27 +3,37 @@ package teki.clean.app.service;
 import java.util.ArrayList;
 
 import teki.clean.app.domain.User;
+import teki.clean.app.domain.Users;
 
+/**
+ * @author Jacek
+ *Zarz¹dza u¿ytkownikami w systemie
+ */
 public class UserManager {
-	private ArrayList<User> users;
+	
+	public UserManager(){
+		this.setUsers( new ArrayList<Users>() );
+	}
+	
+	private ArrayList<Users> users;
 
-	public ArrayList<User> getUsers() {
+	public ArrayList<Users> getUsers() {
 		return users;
 	}
 
-	public void setUsers(ArrayList<User> users) {
+	public void setUsers(ArrayList<Users> users) {
 		this.users = users;
 	}
 	
-	public void addUser(User user){
+	public void addUser(Users user){
 		users.add(user);
 	}
 	
-	public void modifyUser(User user){
+	public void modifyUser(Users user){
 		
 		if( users != null ){
-			for( User u : users ){
-				if( u.getUserID() == user.getUserID() )
+			for( Users u : users ){
+				if( u.getUserId() == user.getUserId() )
 					u = user;
 			}
 		}	

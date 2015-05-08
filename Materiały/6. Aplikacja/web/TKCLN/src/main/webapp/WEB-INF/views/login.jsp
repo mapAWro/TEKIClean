@@ -1,16 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-2"
+    pageEncoding="ISO-8859-2"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
 
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+<link  href="${pageContext.request.contextPath}/resources/css/log.css" rel="stylesheet"/>
 <title>TEKIClean</title>
 </head>
 <body>
-		<h2>	
-			Logowanie uzytkownika 
-		</h2>		
-		
+<div class="top"></div>
+<div class="content">		 
+		<form action="#" th:action="@{/logIn}" th:object="${user}" method="post">
+		<div class="form-group1">
+        <p><input type="text" th:field="*{login}" id="exampleInputEmail1" placeholder="Podaj adres Email"/></p>
+        </div>
+        <div class="form-group2">
+        <p><input type="password" th:field="*{password}" id="exampleInputPassword1" placeholder="Podaj swoje has³o"/></p>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox"> Zapamiêtaj mnie
+            </label>
+        </div>
+        <p><input type="submit" value="Zaloguj" /></p>
+    </form>
+    <div class="linki">
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/zapomnialemhasla.png"/></a>
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/zarejestrujsie.png"/></a>
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/Zaloguj.png"/></a>
+    </div>
+</div>
+<div class="footer"></div>
 	</body>
 </html>
