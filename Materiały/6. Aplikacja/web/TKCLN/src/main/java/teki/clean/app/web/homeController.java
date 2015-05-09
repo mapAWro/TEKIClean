@@ -24,7 +24,7 @@ class MessageBlock{
 }
 
 @Controller
-public class HomeController {
+public class homeController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
    public ModelAndView home(ModelMap model) {
 		return new ModelAndView( "home", "command", new MessageBlock() );
