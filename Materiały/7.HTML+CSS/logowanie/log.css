@@ -1,5 +1,17 @@
+a {
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    text-decoration: none;
+}
+span {
+    color: yellow;
+    font-size: 12px;
+    font-family: cursive;
+}
+
 .top {
-    background-image: url(./../img/top-back.png);
+    background-image: url(top-back.png);
     background-repeat: no-repeat;
     background-position: center top;
     width: 1280px;
@@ -33,6 +45,10 @@
     width: 111px;
     margin-top: 5px;
     margin-left: 500px;
+}
+.text {
+    width: 300px;
+    margin-left: 1000px;
 }
 
 #exampleInputEmail1 {
