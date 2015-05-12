@@ -2,7 +2,7 @@ package teki.clean.app.domain;
 
 // Generated 2015-05-06 23:07:10 by Hibernate Tools 3.4.0.CR1
 
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.Set;
 
 /**
@@ -15,7 +15,7 @@ public class Customers implements java.io.Serializable {
 	private Integer dormNum;
 	private Integer room;
 	private String dormAddres;
-	private Set orderses = new HashSet(0);
+	private ArrayList<Orders> orderses = new ArrayList<Orders>();
 
 	public Customers() {
 	}
@@ -25,7 +25,7 @@ public class Customers implements java.io.Serializable {
 	}
 
 	public Customers(Users users, Integer dormNum, Integer room,
-			String dormAddres, Set orderses) {
+			String dormAddres, ArrayList<Orders> orderses) {
 		this.users = users;
 		this.dormNum = dormNum;
 		this.room = room;
@@ -73,11 +73,11 @@ public class Customers implements java.io.Serializable {
 		this.dormAddres = dormAddres;
 	}
 
-	public Set getOrderses() {
+	public ArrayList<Orders> getOrderses() {
 		return this.orderses;
 	}
 
-	public void setOrderses(Set orderses) {
+	public void setOrderses(ArrayList<Orders> orderses) {
 		this.orderses = orderses;
 	}
 

@@ -4,14 +4,15 @@ import java.util.ArrayList;
 
 import teki.clean.app.domain.Cleaners;
 import teki.clean.app.domain.Offers;
+import teki.clean.app.domain.Opinions;
 import teki.clean.app.domain.Orders;
 import teki.clean.app.domain.Schedules;
 import teki.clean.app.domain.Users;
 
 
-/**
+/**Realizuje wszelk± funkcjonalno¶æ sprz±tacza
  * @author Jacek
- *Realizuje wszelk± funkcjonalno¶æ sprz±tacza
+ *
  */
 public class CleanerManager {
 	
@@ -43,10 +44,29 @@ public class CleanerManager {
 			}
 		}
 	}
+
+	/**
+	 * @return lista opinii na temat sprz±tacza
+	 */
+	public ArrayList<Opinions> getOpinions(){
+		return cleaner.getOpinionses();
+	}
+	
+	/**
+	 * @param offer - oferta z listy ofert sprz±tacza
+	 * @return recenzje wystawionej oferty
+	 */
+	public ArrayList<Opinions> getOfferOpinions( Offers offer ){
+		return offer.getOpinionses();
+	}
 	
 	//TODO
 	public ArrayList<Offers> getOffers(){
 		return offers;
+	}
+	
+	public Offers getOffer( Integer offerId ){
+		return findOffer( offerId );
 	}
 	
 	public void addOffer( Offers offer ){
@@ -54,8 +74,23 @@ public class CleanerManager {
 		offers.add(offer);
 	}
 	
-	public void modifyOffer(){
+	public void setOffer( Integer offerId ){
 		
+	}
+	
+	/**
+	 * @return lista wszystkich zatwierdzonych, niezrealizowanych zamówieñ sprz±tacza
+	 */
+	public ArrayList<Orders> getAllOrders(){
+		ArrayList<Orders> orderList = new ArrayList<Orders>();
+		
+		for( Offers offer_ : getOffers() ){
+			for ( Orders order_ : offer_.getOrderses() ){
+				if( order_.getState() == 1 )
+					orderList.add( order_ );
+			}
+		}
+		return orderList;
 	}
 	
 	/**
@@ -94,30 +129,37 @@ public class CleanerManager {
 		
 	}
 	
-	public void addSchedule(){
-		
+	public void addSchedule( ArrayList<Schedules> schedules ){
+		cleaner.setScheduleses( schedules );
 	}
 	
-	public void modifySchedule(){
-		
-	}
+	/*public void modifySchedule(){
+		ArrayList<Schedules> schedules = cleaner.getScheduleses();
+		if ( schedules != null ){
+			
+		}
+	}*/
 	
 	/**
 	 * @return lista tworz±ca grafik sprz±tacza
 	 */
-	public ArrayList<Schedules> getSchedule(){
+	public ArrayList<Schedules> getSchedules(){
 		return cleaner.getScheduleses();
+	}
+	
+	public void setSchedules( ArrayList<Schedules> schedule ){
+		cleaner.setScheduleses( schedule );
 	}
 	
 	private Offers findOffer( Integer offerId ){
 		Offers desiredOffer = null;
 		for( Offers off : offers ){
-			if( off.getOfferId() == offerId){
+			if( off.getOfferId() == offerId ){
 				desiredOffer = off;
 				break;
 			}
 		}
 		return desiredOffer;
 	}
-	
+
 }

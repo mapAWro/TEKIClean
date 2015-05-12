@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import teki.clean.app.domain.Cleaners;
 import teki.clean.app.domain.Customers;
+import teki.clean.app.domain.Offers;
 import teki.clean.app.domain.Users;
 
 /**
@@ -147,5 +148,29 @@ public class UserManager {
 	//TODO
 	public void modifyUser(Users user){	
 		
+	}
+	
+	public ArrayList<Offers> getAllOffers(){
+		//Pobranie ofert z bazy danych
+		return new ArrayList<Offers>();
+	}
+	
+	public Offers getOfferDetails( Integer offerId){
+		//Pobranie ofert z bazy danych
+		ArrayList<Offers> offers_ = new ArrayList<Offers>();
+		
+		
+		return findOffer( offerId, offers_ );
+	}
+	
+	private Offers findOffer( Integer offerId, ArrayList<Offers> offers ){
+		Offers desiredOffer = null;
+		for( Offers off : offers ){
+			if( off.getOfferId() == offerId ){
+				desiredOffer = off;
+				break;
+			}
+		}
+		return desiredOffer;
 	}
 }
