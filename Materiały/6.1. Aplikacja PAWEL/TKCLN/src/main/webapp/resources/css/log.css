@@ -1,0 +1,68 @@
+a {
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    text-decoration: none;
+}
+span {
+    color: yellow;
+    font-size: 12px;
+    font-family: cursive;
+}
+.top {
+    background-image: url(./../img/login/top-back.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 1280px;
+    margin-left: 30px;
+    height : 100px;  
+}
+
+.content {
+    background-image: url(./../img/login/content-back.png);
+    background-repeat: no-repeat;
+    background-position: center top; 
+    margin-top: 70px;
+    margin-left: 30px;
+    width: 1280px;
+    height: 270px;
+    
+}
+
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 30px;
+}
+
+.checkbox {
+    margin-top: 5px;
+    margin-left: 490px;
+}
+
+.linki {
+    width: 111px;
+    margin-top: -5px;
+    margin-left: 500px;
+}
+.text {
+    width: 300px;
+    margin-left: 1000px;
+}
+#exampleInputEmail1 {
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 400px;
+    width: 220px;
+    height: 25px;
+}
+#exampleInputPassword1 {
+    border-radius: 5px;
+    margin-top: 0px;
+    margin-left: 400px;
+    width: 220px;
+    height: 25px;
+}
+#submit {
+	margin-left: 500px;
+}

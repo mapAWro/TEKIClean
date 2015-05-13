@@ -1,0 +1,67 @@
+.top {
+    text-align: center;
+    background-image: url("./../img/przeglad/top-back.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-left: 30px;
+    width : 1280px;
+    height : 100px;  
+}
+.content {
+    background-image: url("./../img/przeglad/top-back.png");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center top;
+    margin-left: 208px;
+    width: 925px;
+    height: 539px;
+}
+.left {
+    float: left;
+    width: 70%;
+    background-color: aqua;
+    height: 500px;
+}
+.right {
+    float: right;
+    width: 30%;
+    height: 500px;
+}
+a {
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    text-decoration: none;
+}
+span {
+    color: yellow;
+    font-size: 12px;
+    font-family: cursive;
+}
+.text {
+    width: 300px;
+    margin-left: 1000px;
+}
+#bloczek {
+    position: relative;
+    border: solid orange;
+    border-radius: 15px;
+    height: 437px;
+    width: 246px;
+    top: 45px;
+    left: 15px;
+}
+h4 {
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+span2 {
+    font-family: cursive;
+    margin-left: 15px;
+}
+.checkbox {
+   
+    float: right;
+    width: 200px;
+}
