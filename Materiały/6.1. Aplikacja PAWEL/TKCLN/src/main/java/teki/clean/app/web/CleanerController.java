@@ -26,8 +26,9 @@ public class CleanerController {
 	private CleanerManager cm = new CleanerManager( um.getUser() );
 	
 	@RequestMapping(value = "/cleanerPanel", method = RequestMethod.GET)
-	public String cleanerMain(CleanerFormDTO cleanerData, ModelMap model) {
-		cleanerData.setData( cm, um.getUser() );
+	public String cleanerMain(ModelMap model) {
+		CleanerFormDTO cleanerData = new CleanerFormDTO();
+		cleanerData.setData(cm, um.getUser() );
 		model.addAttribute( "cleanerData", cleanerData );
 		return "cleanerPanel";
    }

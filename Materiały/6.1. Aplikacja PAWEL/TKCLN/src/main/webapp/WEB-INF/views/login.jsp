@@ -11,12 +11,7 @@
 <title>TEKIClean</title>
 </head>
 <body>
-<div class="top">
-	<div class="text">
-            <a href="/app/login">Zaloguj siê</a><span>| nie masz konta?</span> 
-            <a href="/app/signIn">zarejestruj siê</a>
-    </div>
-</div>
+<div class="top"></div>
 <div class="content">		 
 		<form:form action="/app/login" method="post">
 		<div class="form-group1">
@@ -30,12 +25,12 @@
                 <input type="checkbox"> Zapamiêtaj mnie
             </label>
         </div>
-         <p><input type="submit" value="Zaloguj" id="submit" /></p>
+        <p><input type="submit" value="Zaloguj" /></p>
     </form:form>
     <div class="linki">
-            <a href="/app/signIn"><img src="${pageContext.request.contextPath}/resources/img/login/zarejestrujsie.png"/></a>
-           
-            <!-- <a href="/app/userAccount"><img src="${pageContext.request.contextPath}/resources/img/login/Zaloguj.png"/></a> -->
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/zapomnialemhasla.png"/></a>
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/zarejestrujsie.png"/></a>
+            <a href=""><img src="${pageContext.request.contextPath}/resources/img/login/Zaloguj.png"/></a>
     </div>
 </div>
 <div class="footer"></div>

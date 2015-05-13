@@ -1,0 +1,67 @@
+a {
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+    text-decoration: none;
+}
+span {
+    color: yellow;
+    font-size: 12px;
+    font-family: cursive;
+}
+.top {
+    text-align: center;
+    background-image: url("top-back.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-left: 30px;
+    width : 1280px;
+    height : 100px;  
+}
+
+.content {
+    background-image: url("p1.png");
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-position: center top;
+    margin-left: 200px;
+    margin-top: 25px;
+    width: 925px;
+    height: 579px;
+}
+
+.footer {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-left: 200px;
+    margin-top: 25px;
+    width: 925px;
+    height: 17px;
+}
+
+.form-control {
+    height: 45px;
+    margin-left: 920px;
+    margin-top: 130px;
+}
+.text {
+    width: 300px;
+    margin-left: 1000px;
+}
+.link {
+    margin-left: 975px;
+    margin-top: -46px;
+}
+.left {
+    width: 20%;
+    height: 579px;
+    background-color: aqua;
+    float: left;
+}
+.right {
+    width: 20%;
+    height: 579px;
+    background-color: blue;
+    float: right;
+}   

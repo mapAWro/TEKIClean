@@ -9,6 +9,9 @@
 <body>
 
 <h2>Zalogowano!</h2><br>
-	<br><br><a href="/app/">Strona g³ówna</a>  
+	<br><br><a href="/app">Strona g³ówna</a>
+	<br><br><a href="/app/cleanerPanel">Panel sprzatacza</a>
+	<br><br><a href="/app/schedule">Schedule</a>
+	<br><br><a href="/app">Strona g³ówna</a>
 </body>
 </html>

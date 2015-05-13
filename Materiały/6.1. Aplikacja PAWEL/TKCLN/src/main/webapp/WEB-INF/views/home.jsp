@@ -15,7 +15,8 @@
 	<div class="top">
 		<div class="text">
             <a href="/app/login">Zaloguj siê</a><span>| nie masz konta?</span> 
-            <a href="/app/signIn">zarejestruj siê</a>
+            <a href="/app/signIn">zarejestruj siê</a><br>
+            <a href="/app/userManagement">Panel admina</a><br>
         </div>
     </div>
     <div class="content">

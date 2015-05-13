@@ -1,21 +1,8 @@
-div div a {
-    color: white;
-    font-size: 12px;
-    font-family: cursive;
-    text-decoration: none;
-}
-span {
-    color: yellow;
-    font-size: 12px;
-    font-family: cursive;
-}
 .top {
-	text-align: center;
     background-image: url("./../img/index/top-back.png");
     background-repeat: no-repeat;
-    background-position: center top;
-    margin-left: 30px;
-    width : 1280px;
+    background-position: center top; 
+    width : 100%;
     height : 100px;  
 }
 
@@ -24,8 +11,7 @@ span {
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-position: center top; 
-    margin-left: 30px;
-    width: 1280px;
+    width: 100%;
     height: 476px;
 }
 
@@ -33,8 +19,7 @@ span {
     background-image: url("./../img/index/tech-back.png");
     background-repeat: no-repeat;
     background-position: center top; 
-    margin-left: 30px;
-    width: 1280px;
+    width: 100%;
     height: 111px;
 }
 
@@ -42,20 +27,6 @@ span {
     background-image: url("./../img/index/footer.png");
     background-repeat: no-repeat;
     background-position: center top; 
-    margin-left: 30px;
-    width: 1280px;
+    width: 100%;
     height: 17px;
-}
-.form-control {
-    height: 45px;
-    margin-left: 920px;
-    margin-top: 130px;
-}
-.text {
-    width: 300px;
-    margin-left: 950px;
-}
-.link {
-    margin-left: 975px;
-    margin-top: -56px;
 }

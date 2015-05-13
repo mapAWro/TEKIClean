@@ -4,11 +4,11 @@
 <html>
 <head lang="">
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
-    <title>Spring MVC Form Handling</title>
+    <title>Login error</title>
 </head>
 <body>
 
-<h2>Wylogowano</h2>
-	<br><br><a href="/app/">Back</a>  
+<h2>Zalogowano!</h2><br>
+	<br><br><a href="/app/cleanerPanel">Strona główna</a>
 </body>
 </html>
