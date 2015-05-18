@@ -1,0 +1,12 @@
+		Lista	Edycja	Contoler	domyœlny WWW	domyœlny WWWed		nazwa Controller
+----------------------------------------------------------------------------------------------------------
+Cleaner_res	x				/Cleaner_res	/EditCleaner_res	Cleaner_resListController
+Cleaner		x				/Cleaner	/EditCleaner		CleanerListController
+Customer	x				/Customer	/EditCustomer		CustomerListController
+Offer		x				/Offer		/EditOffer		OfferListController
+Opinion		x				/Opinion	/EditOpinion		OpinionListController
+Order		x				/Order		/EditOrder		OrderListController
+Resource	x	x			/Resource	/EditResource		ResourceListController
+Schedule	x				/Schedule	/EditSchedule		ScheduleListController
+User		x	x			/User		/EditUser		UserListController
+
