@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="teki.clean.app.model">
+	<class name="User" table="USERS">
+		<id name="user_id" column="USER_ID">
+			<generator class="native"/>
+		</id>
+		<property name="name" column="NAME" />
+		<property name="last_name" column="LAST_NAME" />
+		<property name="sex" column="SEX" />
+		<property name="login" column="LOGIN" />
+		<property name="password" column="PASSWORD" />
+		<property name="email" column="EMAIL" />
+		<property name="phone_num" column="PHONE_NUM" />
+		<property name="auth_lvl" column="AUTH_LVL" />
+		<property name="locality" column="LOCALITY" />
+		<property name="street_addr" column="STREET_ADDR" />
+		<property name="postal_code" column="POSTAL_CODE" />
+		<property name="post_loc" column="POST_LOC" />
+	</class>	
+</hibernate-mapping>

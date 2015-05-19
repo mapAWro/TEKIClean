@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="teki.clean.app.model">
+	<class name="Cleaner_res" table="CLEANER_RES">
+		<id name="cleaner_res_id" column="CLEANER_RES_ID">
+			<generator class="native"/>
+		</id>
+		<property name="resource_id" column="RESOURCE_ID" />
+		<property name="cleaner_id" column="CLEANER_ID" />
+		<property name="quantity" column="QUANTITY" />
+		<property name="state" column="STATE" />
+	</class>	
+</hibernate-mapping>

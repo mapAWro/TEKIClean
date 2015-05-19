@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="teki.clean.app.model">
+	<class name="Customer" table="CUSTOMERS">
+		<id name="customer_id" column="CUSTOMER_ID">
+			<generator class="native"/>
+		</id>
+		<property name="user_id" column="USER_ID" />
+		<property name="dorm_num" column="DORM_NUM" />
+		<property name="room" column="ROOM" />
+		<property name="dorm_addres" column="DORM_ADDRES" />
+	</class>	
+</hibernate-mapping>

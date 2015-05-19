@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+                                         "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+ <session-factory name="">
+  <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+  <property name="show_sql">true</property>
+  <mapping resource="teki/clean/app/model/Resource.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Cleaner.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/User.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Customer.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Order.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Offer.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Opinion.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Schedule.hbm.xml"/>
+  <mapping resource="teki/clean/app/model/Cleaner_res.hbm.xml"/>
+ </session-factory>
+</hibernate-configuration>

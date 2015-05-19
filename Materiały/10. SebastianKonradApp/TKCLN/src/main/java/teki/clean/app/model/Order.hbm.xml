@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="teki.clean.app.model">
+	<class name="Order" table="ORDERS">
+		<id name="order_id" column="ORDER_ID">
+			<generator class="native"/>
+		</id>
+		<property name="customer_id" column="CUSTOMER_ID" />
+		<property name="offers_offer_id" column="OFFERS_OFFER_ID" />
+		<property name="term" column="TERM" />
+		<property name="state" column="STATE" />
+	</class>	
+</hibernate-mapping>

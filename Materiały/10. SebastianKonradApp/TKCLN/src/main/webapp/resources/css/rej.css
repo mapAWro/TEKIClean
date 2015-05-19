@@ -1,0 +1,76 @@
+.top {
+    background-image: url("./../img/index/top-back.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    width : 1280px;
+    height : 100px;  
+}
+
+.content {
+    background-image: url("./../img/rejestracja/content-back.png");
+    background-repeat: no-repeat;
+    background-position: center top; 
+    margin-top: 70px;
+    width: 1280px;
+    height: 344px;
+}
+
+.footer {
+    background-color: skyblue;
+    width: 1280px;
+    height: 30px;
+}
+
+#p1 {
+    border-color: black;
+    margin-top: 87px;
+    margin-left: 575px;
+    width: 90px;
+    height: 25px;
+}
+
+#p2 {
+    border-color: black;
+    margin-top: 6px;
+    margin-left: 575px;
+    width: 200px;
+    height: 25px;
+}
+#p3 {
+    border-color: black;
+    margin-top: 6px;
+    margin-left: 575px;
+    width: 200px;
+    height: 25px;
+}
+#p4 {
+    border-color: black;
+    margin-top: 6px;
+    margin-left: 575px;
+    width: 200px;
+    height: 25px;
+}
+#p5 {
+    border-color: black;
+    margin-top: 6px;
+    margin-left: 575px;
+    width: 50px;
+    height: 25px;
+}
+#p6 {
+    position: relative;
+    border-color: black;
+    left: 80px;
+    width: 60px;
+    height: 25px;
+}
+
+.checkbox {
+    margin-top: -57px;
+    margin-left: 470px;
+    width: 20px
+}
+#submit {
+	margin-left: 720px;
+	margin-top: 32px;
+}

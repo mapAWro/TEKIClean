@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="teki.clean.app.model">
+	<class name="Schedule" table="SCHEDULES">
+		<id name="schedule_id" column="SCHEDULE_ID">
+			<generator class="native"/>
+		</id>
+		<property name="cleaner_id" column="CLEANER_ID" />
+		<property name="day" column="DAY" />
+		<property name="time_range" column="TIME_RANGE" />
+	</class>	
+</hibernate-mapping>
