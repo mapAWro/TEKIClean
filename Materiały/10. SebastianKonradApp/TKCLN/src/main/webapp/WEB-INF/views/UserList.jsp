@@ -11,7 +11,7 @@
     <body>
         <div align="center">
 	        <h1>Users List</h1>
-	        <h2><a href="/EditUser">New Resource</a></h2>
+	        <h2><a href="app/EditUser">New Resource</a></h2>
         	<table border="1">
 	        	<th>No</th>
 	        	<th>Name</th>
