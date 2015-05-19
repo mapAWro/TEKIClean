@@ -13,7 +13,7 @@
 <body>
 
 <div>
-<br><a href="/app/Cleaner_res">Cleaner_res</a>
+<br><a href="/app/Cleaner_res">Seba</a>
 <br><a href="/app/Cleaner">Cleaner</a>
 <br><a href="/app/Customer">Customer</a>
 <br><a href="/app/Offer">Offer</a>
