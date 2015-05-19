@@ -1,0 +1,4 @@
+Fix: Poprawiono metody "action" typu saveXXX w plikach Form.jsp
+Fix: Poprawiono w³asnoœæ "SessionFactory" (B³¹d JNDI)
+Optimize: Usuniêto podwójne importy w klasach Controller
+Optimize: Czyszczenie kodu
