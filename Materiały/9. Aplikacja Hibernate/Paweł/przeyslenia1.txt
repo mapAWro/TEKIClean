@@ -1,0 +1,9 @@
+/home - chyba ok  
+/signIn - więcej danych? jakaś grafa?(po rejestracji strona z 
+	  gratulacjami i weryfikacja emaila!)
+/login - 'Zapamietaj mnie'-dzialanie, Dolaczajac zyskasz(ulepszyc) + grafa	   jakaś
+/customerPanel - harmonogram polepszyc, zmiane oraz  wysylanie maila +
+	         grafe dodac jakas
+/customerOffers - tutaj z baza
+/offers - dokonczyc(nazwy buttonow), weryfikacja danych(z baza)
+/userAccount - caruzele poprawic - ustalic jakie tła?
