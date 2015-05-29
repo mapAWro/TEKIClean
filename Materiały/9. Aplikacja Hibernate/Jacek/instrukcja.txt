@@ -1,0 +1,9 @@
++ *.jsp do view
++ HomeController.java do pakietu "web"
++ UserManager do pakietu "service"
++ UserSignInDTO do pakietu "domain.dto"
+----------------------------------------
+Uwagi
+----------------------------------------
++ logowanie i wylogowywanie (zamiast emaila nale¿y podaæ login)
++ rejestracja (tworzy u¿ytkownia, w przypadku tworzenia klienta w bazie wyrzuca b³¹d, prawdopodobnie zwi¹zany z b³êdn¹ relacj¹)
