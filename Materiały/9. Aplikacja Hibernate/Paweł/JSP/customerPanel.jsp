@@ -29,7 +29,7 @@
 			</div>
 			<div class="col-sm-1"></div>
 			<div class="col-sm-10 text-center">
-				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@student.pwr.edu.pl">Chce byc sprzatajacym!!</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Chce byc sprzatajacym!!</button>
 				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 				  <div class="modal-dialog">
 				    <div class="modal-content">
